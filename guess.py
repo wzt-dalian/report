@@ -1,7 +1,7 @@
 from random import randint
 
 def play():
-    rand_int = randint(0,1000)
+    rand_int = randint(0,500)
     print(rand_int)
 
     while True:
