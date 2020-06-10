@@ -3,6 +3,7 @@ from lsreader import BINOUT_DataType as bdt
 from matplotlib import pyplot as plt
 import os
 
+
 #data preparation
 cwd = os.getcwd()
 data_path = os.path.join(cwd, "binout0000")
