@@ -4,7 +4,8 @@ from matplotlib import pyplot as plt
 import os
 
 #data preparation
-cwd = os.getcwd()
+cwd = os.path.dirname(os.path.abspath(__file__))
+print(cwd)
 data_path = os.path.join(cwd, "binout0000")
 br = BinoutReader(data_path)
 nid = 129
