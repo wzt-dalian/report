@@ -8,7 +8,7 @@ import os
 cwd = os.getcwd()
 data_path = os.path.join(cwd, "binout0000")
 br = BinoutReader(data_path)
-nid = 139
+nid = 110
 contact_id = 62
 time =         br.get_data(bdt.BINOUT_NCFORC_X, cid=contact_id)
 num_timestep = br.get_data(bdt.BINOUT_NCFORC_NUM_TIMESTEP, cid=contact_id)
