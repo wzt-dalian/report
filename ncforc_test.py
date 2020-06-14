@@ -3,13 +3,13 @@ from lsreader import BINOUT_DataType as bdt
 from matplotlib import pyplot as plt
 import os
 
-
 #data preparation
-cwd = os.getcwd()
+cwd = os.path.dirname(os.path.abspath(__file__))
+print(cwd)
 data_path = os.path.join(cwd, "binout0000")
 br = BinoutReader(data_path)
-nid = 110
-contact_id = 110
+nid = 129
+contact_id = 62
 time =         br.get_data(bdt.BINOUT_NCFORC_X, cid=contact_id)
 num_timestep = br.get_data(bdt.BINOUT_NCFORC_NUM_TIMESTEP, cid=contact_id)
 mydict = {}
