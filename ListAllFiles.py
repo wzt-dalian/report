@@ -1,7 +1,7 @@
 import os
 import sys
 
-rootdir = 'C:\\Users\\wangkai\\Desktop\\Tri_area'
+rootdir = 'C:\\Users\\username\\Desktop\\Tri_area'
 
 
 def print_dict(input):
