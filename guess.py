@@ -2,7 +2,7 @@ from random import randint
 
 def play():
     rand_int = randint(0,700)
-    print(rand_int)
+    #print(rand_int)
 
     while True:
         intnumber = int(input("please input a number:"))
@@ -16,7 +16,7 @@ def play():
             continue
 
         elif intnumber > rand_int:
-            print("the number you input is more than the number we guess.")
+            print("the number you input is bigger than the number we guess.")
             continue
 
 if __name__ == "__main__":
